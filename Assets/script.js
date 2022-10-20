@@ -1,5 +1,6 @@
 const questionHeader =$("#questionHeader")
 const startButtonEl =$("#startButton")
+const retryButtonEl =$("#retryButton")
 const questionOneEl  = $("#option1")
 const questionTwoEl  = $("#option2")
 const questionThreeEl  = $("#option3")
@@ -7,7 +8,9 @@ const questionFourEl  = $("#option4")
 const questionAllButtonsEl = $(".optionButton")
 const timeElement = $(".time")
 
+
 let secondsLeft = 30
+$(retryButtonEl).hide();
 $(questionAllButtonsEl).hide();
 
 const startGame = startButtonEl.on("click", function(){
@@ -22,7 +25,8 @@ const startGame = startButtonEl.on("click", function(){
 
     }
 })
-let secondsLeft = 30
+
+
 function setTime() {
     var gameTimer = setInterval(function(){
         secondsLeft--;
