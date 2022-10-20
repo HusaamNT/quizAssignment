@@ -1,6 +1,12 @@
-const questionOne  = $("#option1")
-const questionTwo  = $("#option2")
-const questionThree  = $("#option3")
-const questionFour  = $("#option4")
+const questionHeader =$("#questionHeader")
+const startButtonEl =$("#startButton")
+const questionOneEl  = $("#option1")
+const questionTwoEl  = $("#option2")
+const questionThreeEl  = $("#option3")
+const questionFourEl  = $("#option4")
+const questionAllButtonsEl = $(".optionButtons")
 
-const 
+
+startButtonEl.on("click", function(){
+
+})
