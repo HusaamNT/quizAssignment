@@ -1,12 +1,14 @@
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 40px;
+    justify-items: center;
+    
 }
 .optionButton {
     border-radius: 4px;
     border-style: none;
     box-shadow: rgba(138, 24, 132, 0.15) 3px 0 0 4px inset;
-    color: rgb(38, 72, 165);
+    color: rgb(255, 255, 255);
     background-color: rgb(192, 155, 226);
     cursor: pointer;
     font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
@@ -14,4 +16,8 @@ h1 {
     padding: 20px;
     margin-bottom: 30px;
     margin-left: 20px;
+}
+#startButton {
+    justify-items: center;
+    justify-content: center;
 }
